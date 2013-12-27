@@ -1,10 +1,10 @@
 <?php
 /*
 	Plugin Name: Force User Login
-	Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+	Plugin URI: n/a
 	Description: A really small plugin that forces a user to login before being able to view any blog content.
-	Version: 1.2
-	Author: The Integer Group Development Team
+	Version: 1.4
+	Author: The Integer Group Development Team / Marcel Bischoff / Jeff Vogt
 	Author URI: http://www.integer.com
 
 
@@ -131,7 +131,7 @@
 			else
 			{
 
-		  		header( 'Location: /wp-login.php?redirect_to=' . $redirect_to );
+		  		header( 'Location: ' . WP_SITEURL . '/wp-login.php?redirect_to=' . $redirect_to );
 				die();
 
 			} // else
