@@ -1,10 +1,10 @@
 === Force User Login ===
-Contributors: Integer Development, Marcel Bischoff
+Contributors: Integer Development, Marcel Bischoff, Jeff Vogt
 Donate Link: Don't worry about it
 Tags: force user login, login, password, privacy
 Requires at least: 2.0.2
 Tested up to: 3.4.2
-Stable tag: 1.3
+Stable tag: 1.4
 
 Very small plugin that forces users to login to view blog content.
 
@@ -16,26 +16,22 @@ This is a very small plugin that forces users to login before viewing any conten
 
 1. Upload `force-login.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Set a custom redirect page or whitelisted IP ranges through the 'Settings->Force Login Menu' page
 
 == Frequently Asked Questions ==
 
 = Can I change where the user is redirected after logging in? =
 
-Yes! A variable called $redirect_to (line 33) is currently set to redirect the user to the page they were trying to access. If you changed that line from
-
-`$redirect_to = $_SERVER['REQUEST_URI'];`
-
-to
-
-`$redirect_to = '/';`
-
-it would redirect the user to the home page.
+Yes! Typically it will redirect to $_SERVER['REQUEST_URI'];` but you can override this on the 'Settings->Force Login Menu' page.
 
 == Screenshots ==
 
 None taken.. Just a login screen.
 
 == Changelog ==
+
+= 1.4 =
+* Added a settings page and the ability to skip the login process for whitelisted IP ranges
 
 = 1.3 =
 * Adapted for all kinds of sites, regardless of the URL structure. Validated functionality.
