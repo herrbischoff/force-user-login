@@ -16,7 +16,7 @@ Frequently Asked Questions
 Can I change where the user is redirected after logging in?
 -----------------------------------------------------------
 
-Yes! Typically it will redirect to $_SERVER['REQUEST_URI'];` but you can override this on the 'Settings->Force Login Menu' page.
+Yes! Typically it will redirect to $\_SERVER['REQUEST\_URI'];` but you can override this on the 'Settings->Force Login Menu' page.
 
 
 Screenshots
