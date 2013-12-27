@@ -8,6 +8,7 @@ Installation
 
 1. Upload `force-login.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Set a custom redirect page or whitelisted IP ranges through the 'Settings->Force Login Menu' page
 
 Frequently Asked Questions
 ==========================
@@ -15,15 +16,8 @@ Frequently Asked Questions
 Can I change where the user is redirected after logging in?
 -----------------------------------------------------------
 
-Yes! A variable called $redirect_to (line 33) is currently set to redirect the user to the page they were trying to access. If you changed that line from
+Yes! Typically it will redirect to $_SERVER['REQUEST_URI'];` but you can override this on the 'Settings->Force Login Menu' page.
 
-`$redirect_to = $_SERVER['REQUEST_URI'];`
-
-to
-
-`$redirect_to = '/';`
-
-it would redirect the user to the home page.
 
 Screenshots
 ===========
@@ -32,6 +26,10 @@ None taken.. Just a login screen.
 
 Changelog
 =========
+
+1.4
+---
+* Added a settings page and the ability to skip the login process for whitelisted IP ranges
 
 1.3
 ---
