@@ -33,6 +33,10 @@ None taken. Just a login screen.
 Changelog
 =========
 
+1.3.2
+-----
+* Code now conforms to PSR-2 coding standards. Deleted readme.txt.
+
 1.3.1
 -----
 * Fixed URI redirection error due to deprecated `WP_SITEURL` constant.
