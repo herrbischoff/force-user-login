@@ -4,10 +4,12 @@
     Plugin URI: https://github.com/bubblun/force-user-login
     Description: A really small plugin that forces a user to login before being able to view any blog content.
     Version: 1.3.1
-    Author: The Integer Group Development Team / Marcel Bischoff
+    Author: The Integer Group Development Team
+    Contributors: Marcel Bischoff
     Author URI: http://www.integer.com
 
     Copyright 2009 The Integer Group Dev Team  (email : development@integerdenver.com)
+    Made working again and maintained by Marcel Bischoff <marcel@herrbischoff.com>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
