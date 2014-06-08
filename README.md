@@ -28,10 +28,14 @@ it would redirect the user to the home page.
 Screenshots
 ===========
 
-None taken.. Just a login screen.
+None taken. Just a login screen.
 
 Changelog
 =========
+
+1.3.1
+-----
+* Fixed URI redirection error due to deprecated `WP_SITEURL` constant.
 
 1.3
 ---
