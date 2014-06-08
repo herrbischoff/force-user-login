@@ -53,7 +53,7 @@
 			else
 			{
 
-		  		header( 'Location: ' . WP_SITEURL . '/wp-login.php?redirect_to=' . $redirect_to );
+		  		header( 'Location: ' . get_site_url() . '/wp-login.php?redirect_to=' . $redirect_to );
 				die();
 
 			} // else
