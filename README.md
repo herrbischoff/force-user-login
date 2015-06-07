@@ -1,7 +1,7 @@
 Description
 ===========
 
-This is a very small plugin that forces users to login before viewing any content. This is done by checking if the user is logged in, and if not, redirecting them to the login page. Users attempting to view blog content via RSS are also authenticated via HTTP Auth. 
+This is a very small plugin that forces users to login before viewing any content. This is done by checking if the user is logged in, and if not, redirecting them to the login page. Users attempting to view blog content via RSS are also authenticated via HTTP Auth.
 
 Installation
 ============
@@ -32,6 +32,10 @@ None taken. Just a login screen.
 
 Changelog
 =========
+
+1.3.3
+-----
+* Minor cleanup and move to new home.
 
 1.3.2
 -----
