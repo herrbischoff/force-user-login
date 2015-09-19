@@ -30,7 +30,8 @@ add_action( 'template_redirect', 'force_login' );
 
 function force_login() {
 
-    // Change this line to change to where logging in redirects the user, i.e. '/', '/wp-admin', etc.
+    // Change this line to define where logging in redirects the user to, i.e. '/', '/wp-admin', etc.
+    // Default is the request address which should work fine for most uses.
     $redirect_to = $_SERVER['REQUEST_URI'];
 
     if ( ! is_user_logged_in() )
