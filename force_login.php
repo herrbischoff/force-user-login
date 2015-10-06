@@ -3,7 +3,7 @@
     Plugin Name: Force User Login
     Plugin URI: https://github.com/herrbischoff/force-user-login
     Description: A really small plugin that forces a user to login before being able to view any blog content.
-    Version: 1.3.3
+    Version: 1.4
     Author: The Integer Group Development Team
     Contributors: Marcel Bischoff
     Author URI: http://www.integer.com
@@ -25,6 +25,24 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
+
+include_once('updater.php');
+
+if ( is_admin() ) {
+    $config = array(
+        'slug' => plugin_basename( __FILE__ ),
+        'proper_folder_name' => 'force-user-login',
+        'api_url' => 'https://github.com/herrbischoff/force-user-login.git',
+        'raw_url' => 'https://raw.githubusercontent.com/herrbischoff/force-user-login/master',
+        'github_url' => 'https://github.com/herrbischoff/force-user-login',
+        'zip_url' => 'https://github.com/herrbischoff/force-user-login/archive/master.zip',
+        'sslverify' => true,
+        'requires' => '4.0',
+        'tested' => '4.3.1',
+        'readme' => 'README.md'
+    );
+    new WP_GitHub_Updater( $config );
+}
 
 add_action( 'template_redirect', 'force_login' );
 

@@ -33,6 +33,10 @@ None taken. Just a login screen.
 Changelog
 =========
 
+1.4.0
+-----
+* Add [WordPress GitHub Plugin Updater](https://github.com/radishconcepts/WordPress-GitHub-Plugin-Updater) class to enable easier updates.
+
 1.3.3
 -----
 * Minor cleanup and move to new home.

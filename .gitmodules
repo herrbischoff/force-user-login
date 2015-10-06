@@ -1,0 +1,3 @@
+[submodule "WordPress-GitHub-Plugin-Updater"]
+	path = WordPress-GitHub-Plugin-Updater
+	url = https://github.com/radishconcepts/WordPress-GitHub-Plugin-Updater.git
