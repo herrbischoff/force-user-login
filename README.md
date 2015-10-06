@@ -6,7 +6,7 @@ This is a very small plugin that forces users to login before viewing any conten
 Installation
 ============
 
-1. Upload `force-login.php` to the `/wp-content/plugins/` directory
+1. Run `git clone --recursive https://github.com/herrbischoff/force-user-login.git` in the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 Frequently Asked Questions
@@ -32,6 +32,10 @@ None taken. Just a login screen.
 
 Changelog
 =========
+
+1.4.1
+-----
+* Change installation instructions.
 
 1.4.0
 -----

@@ -3,7 +3,7 @@
     Plugin Name: Force User Login
     Plugin URI: https://github.com/herrbischoff/force-user-login
     Description: A really small plugin that forces a user to login before being able to view any blog content.
-    Version: 1.4
+    Version: 1.4.1
     Author: The Integer Group Development Team
     Contributors: Marcel Bischoff
     Author URI: http://www.integer.com
