@@ -3,6 +3,13 @@ Description
 
 This is a very small plugin that forces users to login before viewing any content. This is done by checking if the user is logged in, and if not, redirecting them to the login page. Users attempting to view blog content via RSS are also authenticated via HTTP Auth.
 
+Caffeinating
+============
+
+When you find this helpful, you could buy me a coffee. Keeping me properly caffeinated accelerates things. And it would really make my day. Kindness of strangers and all that. If you can't or won't, no hard feelings. It's available completely free for a reason. Still, it would be awesome.
+
+Patreon: https://www.patreon.com/herrbischoff
+
 Installation
 ============
 
